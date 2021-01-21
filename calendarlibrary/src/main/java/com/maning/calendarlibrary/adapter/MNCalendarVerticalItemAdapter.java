@@ -159,10 +159,10 @@ public class MNCalendarVerticalItemAdapter extends RecyclerView.Adapter<Recycler
                     Date dateClick = mnCalendarItemModel.getDate();
 
                     //必须大于今天
-                    if (dateClick.getTime() < nowDate.getTime()) {
-                        Toast.makeText(context, "选择的日期必须大于今天", Toast.LENGTH_SHORT).show();
-                        return;
-                    }
+//                    if (dateClick.getTime() < nowDate.getTime()) {
+//                        Toast.makeText(context, "选择的日期必须大于今天", Toast.LENGTH_SHORT).show();
+//                        return;
+//                    }
 
                     if (adapter.startDate != null && adapter.endDate != null) {
                         adapter.startDate = null;
